@@ -18,6 +18,11 @@ gem "rubocop", require: false
 gem "rubocop-checkstyle_formatter", require: false
 gem "eslint-rails"
 gem "therubyracer", platforms: :ruby
+gem "devise"
+gem "omniauth", "~> 1.3"
+gem "oauth2"
+gem "omniauth-oauth2"
+gem "rdoc"
 
 group :development, :test do
   gem "sqlite3"
